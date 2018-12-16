@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/3/12 10:11:15。
+     1>项目“I:\win32控制台程序\贪吃蛇\贪吃蛇\贪吃蛇.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         I:\install_VS\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /FR"Debug\\" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>i:\win32控制台程序\贪吃蛇\贪吃蛇\main.cpp(151): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 i:\install_vs\vc\include\conio.h(133) : 参见“kbhit”的声明
+     1>i:\win32控制台程序\贪吃蛇\贪吃蛇\main.cpp(153): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 i:\install_vs\vc\include\conio.h(131) : 参见“getch”的声明
+     1>i:\win32控制台程序\贪吃蛇\贪吃蛇\main.cpp(335): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 i:\install_vs\vc\include\stdio.h(356) : 参见“sprintf”的声明
+       Link:
+         I:\install_VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\win32控制台程序\贪吃蛇\Debug\贪吃蛇.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\win32控制台程序\贪吃蛇\Debug\贪吃蛇.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\win32控制台程序\贪吃蛇\Debug\贪吃蛇.lib" /MACHINE:X86 Debug\main.obj
+         贪吃蛇.vcxproj -> I:\win32控制台程序\贪吃蛇\Debug\贪吃蛇.exe
+       BscMake:
+         I:\install_VS\VC\bin\bscmake.exe /nologo /o"I:\win32控制台程序\贪吃蛇\Debug\贪吃蛇.bsc" /n Debug\main.sbr
+     1>已完成生成项目“I:\win32控制台程序\贪吃蛇\贪吃蛇\贪吃蛇.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.81
